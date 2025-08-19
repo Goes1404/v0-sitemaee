@@ -63,9 +63,9 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       {/* Header */}
-      <header className="fixed top-0 w-full z-50 bg-slate-800 shadow-lg">
+      <header className="fixed top-0 w-full z-50 bg-slate-800/95 backdrop-blur-sm shadow-lg">
         <nav className="py-4">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between">
@@ -209,14 +209,14 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="imoveis" className="py-16 bg-white">
+      <section id="imoveis" className="py-16 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-slate-800">
+            <h2 className="text-4xl font-bold mb-4 text-white">
               Nossos Serviços
               <div className="w-24 h-1 bg-sky-300 mx-auto mt-4"></div>
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               Oferecemos soluções completas para todas as suas necessidades imobiliárias
             </p>
           </div>
@@ -230,9 +230,12 @@ export default function Home() {
               { title: "Documentação", desc: "Suporte completo em cartório" },
               { title: "Consultoria", desc: "Orientação especializada" },
             ].map((service, index) => (
-              <div key={index} className="bg-gray-50 p-6 rounded-lg hover:shadow-lg transition-shadow duration-300">
-                <h3 className="text-xl font-bold text-slate-800 mb-3">{service.title}</h3>
-                <p className="text-gray-600">{service.desc}</p>
+              <div
+                key={index}
+                className="bg-slate-700/50 border border-slate-600 p-6 rounded-lg hover:bg-slate-700/70 hover:shadow-xl transition-all duration-300"
+              >
+                <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
+                <p className="text-gray-300">{service.desc}</p>
               </div>
             ))}
           </div>
@@ -241,7 +244,7 @@ export default function Home() {
             <a
               href="https://api.whatsapp.com/send?phone=5511996188216&text=Olá! Gostaria de saber mais sobre os serviços."
               target="_blank"
-              className="inline-block px-8 py-4 text-xl font-bold text-white bg-slate-800 hover:bg-slate-700 rounded-lg transition-all duration-300 shadow-lg"
+              className="inline-block px-8 py-4 text-xl font-bold text-slate-900 bg-sky-300 hover:bg-sky-200 rounded-lg transition-all duration-300 shadow-lg"
               rel="noreferrer"
             >
               Saiba Mais
@@ -251,14 +254,14 @@ export default function Home() {
       </section>
 
       {/* Featured Properties Section */}
-      <section id="imoveis-destaque" className="py-16 bg-gray-50">
+      <section id="imoveis-destaque" className="py-16 bg-slate-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-slate-800">
+            <h2 className="text-4xl font-bold mb-4 text-white">
               Imóveis em Evidência
               <div className="w-24 h-1 bg-sky-300 mx-auto mt-4"></div>
             </h2>
-            <p className="text-xl text-gray-600">Conheça nossos lançamentos e oportunidades exclusivas</p>
+            <p className="text-xl text-gray-300">Conheça nossos lançamentos e oportunidades exclusivas</p>
           </div>
 
           <div className="flex justify-center">
@@ -310,7 +313,7 @@ export default function Home() {
                   }`}
                 />
                 <div className="text-sm">
-                  <p className="font-semibold text-slate-800 mb-1">{slide.alt.split(" - ")[0]}</p>
+                  <p className="font-semibold text-white mb-1">{slide.alt.split(" - ")[0]}</p>
                   <a
                     href={`https://api.whatsapp.com/send?phone=5511996188216&text=${encodeURIComponent(slide.message)}`}
                     target="_blank"
@@ -328,10 +331,10 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="sobre" className="py-16 bg-white">
+      <section id="sobre" className="py-16 bg-slate-800">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 text-slate-800">
+            <h2 className="text-4xl font-bold mb-4 text-white">
               Sobre a Corretora Cristal
               <div className="w-24 h-1 bg-sky-300 mx-auto mt-4"></div>
             </h2>
@@ -364,20 +367,20 @@ export default function Home() {
             </div>
 
             <div className="lg:w-1/2">
-              <h3 className="text-3xl font-bold mb-6 text-slate-800">Tradição e Confiança no Mercado Imobiliário</h3>
-              <p className="text-lg mb-6 leading-relaxed text-gray-600">
+              <h3 className="text-3xl font-bold mb-6 text-white">Tradição e Confiança no Mercado Imobiliário</h3>
+              <p className="text-lg mb-6 leading-relaxed text-gray-300">
                 A Corretora Cristal é uma empresa consolidada no mercado imobiliário, oferecendo soluções completas para
                 compra, venda e locação de imóveis. Nossa equipe especializada trabalha com transparência e dedicação
                 para realizar o sonho da casa própria de nossos clientes.
               </p>
-              <p className="text-lg mb-8 leading-relaxed text-gray-600">
+              <p className="text-lg mb-8 leading-relaxed text-gray-300">
                 Com anos de experiência e um portfólio diversificado, garantimos atendimento personalizado e suporte
                 completo em todas as etapas do processo imobiliário.
               </p>
               <a
                 href="https://api.whatsapp.com/send?phone=5511996188216&text=Olá! Gostaria de conhecer melhor a Corretora Cristal."
                 target="_blank"
-                className="inline-block px-6 py-3 text-lg font-bold text-white bg-slate-800 hover:bg-slate-700 rounded-lg transition-all duration-300 shadow-lg"
+                className="inline-block px-6 py-3 text-lg font-bold text-slate-900 bg-sky-300 hover:bg-sky-200 rounded-lg transition-all duration-300 shadow-lg"
                 rel="noreferrer"
               >
                 Fale Conosco
@@ -388,30 +391,29 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contatos" className="py-16 bg-gray-50">
+      <section id="contatos" className="py-16 bg-slate-900">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4 text-slate-800">
+          <h2 className="text-4xl font-bold mb-4 text-white">
             Entre em Contato
             <div className="w-24 h-1 bg-sky-300 mx-auto mt-4"></div>
           </h2>
-          <p className="text-xl text-gray-600 mb-8">Estamos prontos para ajudar você a encontrar o imóvel ideal</p>
+          <p className="text-xl text-gray-300 mb-8">Estamos prontos para ajudar você a encontrar o imóvel ideal</p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="text-3xl mb-4">📱</div>
-              <h3 className="text-xl font-bold text-slate-800 mb-2">WhatsApp</h3>
-              <p className="text-gray-600">(11) 99618-8216</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="text-3xl mb-4">📧</div>
-              <h3 className="text-xl font-bold text-slate-800 mb-2">E-mail</h3>
-              <p className="text-gray-600">contato@corretoracristal.com</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <div className="text-3xl mb-4">📍</div>
-              <h3 className="text-xl font-bold text-slate-800 mb-2">Localização</h3>
-              <p className="text-gray-600">São Paulo - SP</p>
-            </div>
+            {[
+              { icon: "📱", title: "WhatsApp", info: "(11) 99618-8216" },
+              { icon: "📧", title: "E-mail", info: "contato@corretoracristal.com" },
+              { icon: "📍", title: "Localização", info: "São Paulo - SP" },
+            ].map((contact, index) => (
+              <div
+                key={index}
+                className="bg-slate-800 border border-slate-700 p-6 rounded-lg shadow-lg hover:bg-slate-700 transition-all duration-300"
+              >
+                <div className="text-3xl mb-4">{contact.icon}</div>
+                <h3 className="text-xl font-bold text-white mb-2">{contact.title}</h3>
+                <p className="text-gray-300">{contact.info}</p>
+              </div>
+            ))}
           </div>
 
           <div className="mb-12">
@@ -426,7 +428,7 @@ export default function Home() {
           </div>
 
           <div>
-            <p className="text-lg font-bold mb-6 text-slate-800">Siga-nos nas redes sociais:</p>
+            <p className="text-lg font-bold mb-6 text-white">Siga-nos nas redes sociais:</p>
             <div className="flex justify-center items-center gap-6">
               <a
                 href="https://www.instagram.com/corretora.cristal?igsh=eTk0OWxueDJkOHQ4"
@@ -454,7 +456,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 text-white text-center bg-slate-800">
+      <footer className="py-8 text-white text-center bg-slate-800 border-t border-slate-700">
         <div className="container mx-auto px-4">
           <p className="mb-2 text-lg">© Corretora Cristal 2024</p>
           <p className="text-sky-300">Realizando sonhos, construindo futuros</p>
