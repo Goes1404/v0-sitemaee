@@ -10,19 +10,19 @@ export default function Home() {
 
   const propertySlides = [
     {
-      image: "/modern-apartment-facade-bless.png",
-      alt: "Bless - Corretora Cristal",
-      message: "Olá! Tenho interesse no imóvel Bless.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bless-pWmJwM2vUMII49MBtU0xMJVzzLdosY.jpeg",
+      alt: "Bless Parque Barueri - Corretora Cristal",
+      message: "Olá! Tenho interesse no empreendimento Bless Parque Barueri.",
     },
     {
-      image: "/luxury-residential-exterior.png",
-      alt: "Griffe - Fachada de um imóvel à venda",
-      message: "Olá! Gostaria de mais informações sobre o Griffe.",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/griffe-NzZG4SZRXpq67fpNbBZWdeBSR9CgNC.jpeg",
+      alt: "Griffe Barueri - Corretora Cristal",
+      message: "Olá! Gostaria de mais informações sobre o Griffe Barueri.",
     },
     {
-      image: "/manaca-apartment-living-room.png",
-      alt: "Manacá - Sala de estar de um apartamento decorado",
-      message: "Olá! Poderia me enviar detalhes sobre o Manacá?",
+      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/manaca-7BBOdlq7wH7WcIcSGFApcyuhNv4Yi2.jpeg",
+      alt: "Manacá Barueri - Corretora Cristal",
+      message: "Olá! Poderia me enviar detalhes sobre o Manacá Barueri?",
     },
   ]
 
