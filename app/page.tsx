@@ -371,7 +371,7 @@ export default function Home() {
 
           <div className="flex flex-col lg:flex-row gap-8 items-stretch">
             <div className="lg:w-1/2">
-              <div className="relative overflow-hidden rounded-lg shadow-lg aspect-square bg-slate-700">
+              <div className="relative overflow-hidden rounded-lg shadow-lg aspect-[4/5] bg-slate-700 max-w-md mx-auto">
                 <Image
                   src={aboutSlides[currentAboutSlide].image || "/placeholder.svg"}
                   alt={aboutSlides[currentAboutSlide].alt}
