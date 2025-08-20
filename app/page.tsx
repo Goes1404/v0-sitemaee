@@ -364,9 +364,9 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="flex flex-col lg:flex-row items-center gap-8">
+          <div className="flex flex-col lg:flex-row gap-8 items-stretch">
             <div className="lg:w-1/2">
-              <div className="relative h-96 overflow-hidden rounded-lg shadow-lg">
+              <div className="relative overflow-hidden rounded-lg shadow-lg py-0.5 h-[800px]">
                 <Image
                   src={aboutSlides[currentAboutSlide].image || "/placeholder.svg"}
                   alt={aboutSlides[currentAboutSlide].alt}
@@ -376,7 +376,7 @@ export default function Home() {
 
                 <button
                   onClick={prevAboutSlide}
-                  className="absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-slate-800/70 hover:bg-slate-800/90 rounded-full flex items-center justify-center text-white transition-all duration-300"
+                  className="absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-slate-800/70 hover:bg-slate-800/90 rounded-full flex items-center justify-center text-white transition-all duration-300 flex-col"
                 >
                   ‹
                 </button>
