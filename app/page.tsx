@@ -27,7 +27,7 @@ export default function Home() {
   ]
 
   const aboutSlides = [
-    { image: "/placeholder-0jynu.png", alt: "Equipe Corretora Cristal" },
+    { image: "/corretora-cristal-team.png", alt: "Equipe Corretora Cristal" },
     { image: "/modern-real-estate-office.png", alt: "Escritório Corretora Cristal" },
     { image: "/personalized-real-estate-service.png", alt: "Atendimento personalizado" },
   ]
