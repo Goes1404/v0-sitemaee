@@ -27,11 +27,31 @@ export default function Home() {
   ]
 
   const aboutSlides = [
-    { image: "/corretora-cristal-team.png", alt: "Equipe Corretora Cristal" },
-    { image: "/modern-real-estate-office.png", alt: "Escritório Corretora Cristal" },
-    { image: "/personalized-real-estate-service.png", alt: "Atendimento personalizado" },
-    { image: "/real-estate-consultation.png", alt: "Consultoria imobiliária especializada" },
-    { image: "/property-documentation.png", alt: "Documentação e suporte legal" },
+    {
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-18%20at%2014.33.32%20%282%29-OlOXvdRCREput0ktC5Q4qEjbudyRSC.jpeg",
+      alt: "Cristal - Corretora Profissional",
+    },
+    {
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-18%20at%2014.33.31-3Jmi1tFEnCdPrEpDboT08HPZiUKJbR.jpeg",
+      alt: "Cristal - Escritório Moderno",
+    },
+    {
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-18%20at%2014.33.31%20%281%29-vjCOp65rvBNUpOyenUaXo08v60tksk.jpeg",
+      alt: "Cristal - Atendimento Personalizado",
+    },
+    {
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-18%20at%2014.33.32%20%281%29-ywsmiZr89E9N2fnhsDbqgqqBgTddUm.jpeg",
+      alt: "Cristal - Consultoria Especializada",
+    },
+    {
+      image:
+        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-18%20at%2014.33.32-Yjaf3rvLz52O3zDaSvvS70MAT52jcj.jpeg",
+      alt: "Cristal - Ambiente Corporativo",
+    },
     { image: "/client-meeting.png", alt: "Reunião com clientes" },
     { image: "/property-evaluation.png", alt: "Avaliação profissional de imóveis" },
   ]
