@@ -52,8 +52,6 @@ export default function Home() {
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-08-18%20at%2014.33.32-Yjaf3rvLz52O3zDaSvvS70MAT52jcj.jpeg",
       alt: "Cristal - Ambiente Corporativo",
     },
-    { image: "/client-meeting.png", alt: "Reunião com clientes" },
-    { image: "/property-evaluation.png", alt: "Avaliação profissional de imóveis" },
   ]
 
   useEffect(() => {
