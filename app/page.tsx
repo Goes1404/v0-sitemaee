@@ -290,12 +290,12 @@ export default function Home() {
 
           <div className="flex justify-center">
             <div className="relative w-full max-w-2xl">
-              <div className="relative h-96 overflow-hidden rounded-lg shadow-lg">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-lg bg-slate-800">
                 <Image
                   src={propertySlides[currentSlide].image || "/placeholder.svg"}
                   alt={propertySlides[currentSlide].alt}
                   fill
-                  className="object-cover transition-opacity duration-500"
+                  className="object-contain transition-opacity duration-500"
                 />
               </div>
 
@@ -366,7 +366,7 @@ export default function Home() {
 
           <div className="flex flex-col lg:flex-row gap-8 items-stretch">
             <div className="lg:w-1/2">
-              <div className="relative overflow-hidden rounded-lg shadow-lg py-0.5 h-[800px]">
+              <div className="relative overflow-hidden rounded-lg shadow-lg aspect-[3/4] bg-slate-700">
                 <Image
                   src={aboutSlides[currentAboutSlide].image || "/placeholder.svg"}
                   alt={aboutSlides[currentAboutSlide].alt}
