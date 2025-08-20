@@ -20,7 +20,7 @@ export default function Home() {
       message: "Olá! Gostaria de mais informações sobre o Griffe.",
     },
     {
-      image: "/imagens/manaca.jpeg",
+      image: "./imagens/manaca.jpeg",
       alt: "Manacá - Sala de estar de um apartamento decorado",
       message: "Olá! Poderia me enviar detalhes sobre o Manacá?",
     },
