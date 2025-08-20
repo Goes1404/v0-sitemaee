@@ -10,26 +10,26 @@ export default function Home() {
 
   const propertySlides = [
     {
-      image: "/imagens/bless.jpeg",
+      image: "/modern-apartment-facade-bless.png",
       alt: "Bless - Corretora Cristal",
       message: "Olá! Tenho interesse no imóvel Bless.",
     },
     {
-      image: "/imagens/griffe.jpeg",
+      image: "/luxury-residential-exterior.png",
       alt: "Griffe - Fachada de um imóvel à venda",
       message: "Olá! Gostaria de mais informações sobre o Griffe.",
     },
     {
-      image: "./imagens/manaca.jpeg",
+      image: "/manaca-apartment-living-room.png",
       alt: "Manacá - Sala de estar de um apartamento decorado",
       message: "Olá! Poderia me enviar detalhes sobre o Manacá?",
     },
   ]
 
   const aboutSlides = [
-    { image: "/imagens/carrosel1img.jpeg", alt: "Equipe Corretora Cristal" },
-    { image: "/imagens/carrosel2img.jpeg", alt: "Escritório Corretora Cristal" },
-    { image: "/imagens/carrosel3img.jpeg", alt: "Atendimento personalizado" },
+    { image: "/placeholder-0jynu.png", alt: "Equipe Corretora Cristal" },
+    { image: "/modern-real-estate-office.png", alt: "Escritório Corretora Cristal" },
+    { image: "/personalized-real-estate-service.png", alt: "Atendimento personalizado" },
   ]
 
   useEffect(() => {
@@ -187,7 +187,7 @@ export default function Home() {
       {/* Hero Section */}
       <section id="hero" className="relative h-screen flex items-center justify-center text-center text-white pt-20">
         <div className="absolute inset-0 z-0">
-          <Image src="/imagens/fotocapa.jpeg" alt="Corretora Cristal" fill className="object-cover" priority />
+          <Image src="/luxury-modern-real-estate.png" alt="Corretora Cristal" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/60 to-slate-900/70"></div>
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4">
