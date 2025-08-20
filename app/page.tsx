@@ -30,6 +30,10 @@ export default function Home() {
     { image: "/corretora-cristal-team.png", alt: "Equipe Corretora Cristal" },
     { image: "/modern-real-estate-office.png", alt: "Escritório Corretora Cristal" },
     { image: "/personalized-real-estate-service.png", alt: "Atendimento personalizado" },
+    { image: "/real-estate-consultation.png", alt: "Consultoria imobiliária especializada" },
+    { image: "/property-documentation.png", alt: "Documentação e suporte legal" },
+    { image: "/client-meeting.png", alt: "Reunião com clientes" },
+    { image: "/property-evaluation.png", alt: "Avaliação profissional de imóveis" },
   ]
 
   useEffect(() => {
