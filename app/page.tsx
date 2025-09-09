@@ -27,9 +27,9 @@ export default function Home() {
   ]
 
   const aboutSlides = [
-    { image: "/imagens/carrosel1img.jpeg", alt: "Equipe Corretora Cristal" },
-    { image: "/imagens/carrosel2img.jpeg", alt: "Escritório Corretora Cristal" },
-    { image: "/imagens/carrosel3img.jpeg", alt: "Atendimento personalizado" },
+    { image: "/imagens/fotomae1.jpeg", alt: "Equipe Corretora Cristal" },
+    { image: "/imagens/fotomae2.jpeg", alt: "Escritório Corretora Cristal" },
+    { image: "/imagens/fotomae4.jpeg", alt: "Atendimento personalizado" },
   ]
 
   useEffect(() => {
@@ -187,7 +187,7 @@ export default function Home() {
       {/* Hero Section */}
       <section id="hero" className="relative h-screen flex items-center justify-center text-center text-white pt-20">
         <div className="absolute inset-0 z-0">
-          <Image src="/imagens/fotocapa.jpeg" alt="Corretora Cristal" fill className="object-cover" priority />
+          <Image src="/imagens/fotomae3.jpeg" alt="Corretora Cristal" fill className="object-cover" priority />
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/60 to-slate-900/70"></div>
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4">
