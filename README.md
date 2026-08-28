@@ -28,3 +28,13 @@ Continue building your app on:
 2. Deploy your chats from the v0 interface
 3. Changes are automatically pushed to this repository
 4. Vercel deploys the latest version from this repository
+
+## Sistema de manutenção de servomotores e servodrives
+
+Além do site institucional, este repositório contém o **ServoManut**, um sistema de
+gestão de manutenção (CMMS) para servomotores e servodrives, disponível em
+[`/manutencao`](http://localhost:3000/manutencao): equipamentos, ordens de serviço,
+planos preventivos, estoque de peças, catálogo de falhas por fabricante e
+relatórios com MTBF, MTTR e disponibilidade.
+
+Documentação completa em [`docs/sistema-manutencao.md`](docs/sistema-manutencao.md).
